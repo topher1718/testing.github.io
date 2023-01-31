@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: #fff;
+    
+}
+main{
+    padding-inline: 3rem;
+    
+}
+header h1{
+    text-align: center;
+}
+header{
+    border-bottom: solid #5F5AA2;
+    background-color: #5F5AA2;
+    width: 100%;
+}
+h1{
+    font-style: italic;
+    background-color: #355691;
+    padding: 10px;
+    text-transform: uppercase;
+}
+
+h2{  
+    padding: 5px;
+}
+h3{
+    font-style: oblique;
+    margin-block: 10px;
+}
+p{
+    text-align: justify;
+    line-height: 1.5;
+}
+section p{
+    background-color: ;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+img{
+    border: 1px solid #000;
+}
+a:hover{
+    display: block;
+    background-color: #30292F;
+    
+}
+nav ul{
+    text-align: center;
+    display: block;
+    margin: 0%;
+}
+nav ul li{
+    display: inline-block;
+    margin-inline: 50px;
+    padding: 10px;
+}
+.about{
+    columns: 2;
+    
+}
+.propic{
+    width: 13rem;
+    height: 13rem;
+    background-color: aqua;
+    margin: 0px 10px 10px 0px;
+    float: left;
+}
+.info p{
+    line-height: 1;
+    text-align: justify;
+    margin-bottom: 1em;
+}
+.info{
+    list-style-type: none;
+}
+.info li{
+    display: block;
+}
+.label{
+    font-weight: bold;
+}
+article{
+    padding-bottom: 1em;
+    border-bottom: 1px solid white;
+}
+.article{
+    column-count: 2;
+    column-gap: 2rem;
+}
+.list-hobbies{
+    list-style-type: square;
+    list-style-position: inside;
+}
+figure{
+    display: flex;
+}
+figure img{
+margin-right: 10px;
+margin-bottom: 10px;
+width: 20vw;
+}
+figure figcaption{
+    text-align: justify;
+    line-height: 1.5;
+}
+footer p{
+    text-align: center;
+    font-weight: bold;
+    padding: 10px;
+}
+
